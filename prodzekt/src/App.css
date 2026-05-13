@@ -18,3 +18,16 @@ main {
   font-family: Helvetica;
   box-shadow: 0px 0px 5px rgb(190, 190, 190);
 }
+.check {
+}
+.check_gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to left,rgba(197, 197, 197, 0), rgb(197, 197, 197),rgb(197, 197, 197),rgba(197, 197, 197, 0));
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.checkbox {
+}

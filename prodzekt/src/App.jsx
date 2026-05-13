@@ -14,9 +14,15 @@ function App() {
     <main>
       <div class="check">
         <h2>tu_bedzie_id</h2>
+        <input class="checkbox" type='checkbox'></input>
       </div>
-      <div class="check">
+      <div class="check check_gradient">
         <h2>tu_bedzie_id</h2>
+        <input class="checkbox" type='checkbox'></input>
+      </div>
+      <div class="check check_gradient">
+        <h2>tu_bedzie_id</h2>
+        <input class="checkbox" type='checkbox'></input>
       </div>
     </main>
     </>

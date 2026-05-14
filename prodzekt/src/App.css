@@ -33,7 +33,7 @@ width: 100%;
   border-bottom: 0;
 }
 .checkbox {
-  height: ;
+
 width: 20%;
 display: flex;
   justify-content: center;
@@ -44,4 +44,8 @@ display: flex;
   width: 75%;
 padding-left: 5%;
 
+}
+.wysokosc {
+  width: 50%;
+  height: auto;
 }

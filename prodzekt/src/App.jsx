@@ -13,16 +13,28 @@ function App() {
     </nav>
     <main>
       <div class="check">
-        <h2>tu_bedzie_id</h2>
-        <input class="checkbox" type='checkbox'></input>
+        <div class="id_nazwa">
+          <h2 >tu_bedzie_id</h2>
+          </div>
+          <div class="checkbox " >
+         <input type='checkbox'></input>
+        </div> 
+      </div>
+      <div class="check check check_gradient">
+        <div class="id_nazwa">
+          <h2 >tu_bedzie_id</h2>
+          </div>
+          <div class="checkbox" >
+         <input type='checkbox'></input>
+        </div> 
       </div>
       <div class="check check_gradient">
-        <h2>tu_bedzie_id</h2>
-        <input class="checkbox" type='checkbox'></input>
-      </div>
-      <div class="check check_gradient">
-        <h2>tu_bedzie_id</h2>
-        <input class="checkbox" type='checkbox'></input>
+        <div class="id_nazwa">
+          <h2 >tu_bedzie_id</h2>
+          </div>
+          <div class="checkbox" >
+         <input type='checkbox'></input>
+        </div> 
       </div>
     </main>
     </>

@@ -19,6 +19,9 @@ main {
   box-shadow: 0px 0px 5px rgb(190, 190, 190);
 }
 .check {
+display: flex;
+align-items: center;  
+width: 100%;
 }
 .check_gradient {
   border: 10px solid;
@@ -30,4 +33,15 @@ main {
   border-bottom: 0;
 }
 .checkbox {
+  height: ;
+width: 20%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.id_nazwa {
+  width: 75%;
+padding-left: 5%;
+
 }

@@ -7,6 +7,7 @@ import { Lista } from './assets/Lista';
 import './assets/App.css'
 
 
+
 function App() {
 
   return (
@@ -25,9 +26,6 @@ function App() {
             />
           ))
         }
-        <div className="box">
-          <h3>Ranking</h3>...
-        </div>
       </div>
 
       <div class="check check_gradient">

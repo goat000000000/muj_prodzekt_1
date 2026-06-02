@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 
 export function Lista({ nazwa, zaznaczone }) {
-  const [checked, setChecked] = React.useState(zaznaczone);
+     const [checked, setChecked] = React.useState(false);
 
   const handleChange = () => {
-    setChecked(!checked);
+    setChecked(zaznaczone=1);
   };
   return (
     <div class="check check check_gradient">

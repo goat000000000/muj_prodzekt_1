@@ -23,6 +23,7 @@ display: flex;
 align-items: center;  
 width: 100%;
 }
+
 .check_gradient {
   border: 10px solid;
   border-image-slice: 1;
@@ -31,6 +32,9 @@ width: 100%;
   border-left: 0;
   border-right: 0;
   border-bottom: 0;
+}
+.check_gradient:first-child {
+  border: 0px solid;
 }
 .checkbox {
 

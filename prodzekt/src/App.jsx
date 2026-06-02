@@ -23,6 +23,7 @@ function App() {
             <Lista
               key={item.id}
               nazwa={item.nazwa}
+              zaznaczone={item.zaznaczone}
             />
           ))
         }

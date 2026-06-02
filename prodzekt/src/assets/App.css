@@ -53,3 +53,29 @@ padding-left: 5%;
   width: 50%;
   height: auto;
 }
+@media (max-width: 768px) {
+  nav,
+  main {
+    width: 95%;
+  }
+
+  .check {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkbox {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+
+  .id_nazwa {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .wysokosc {
+    width: 100%;
+  }
+}

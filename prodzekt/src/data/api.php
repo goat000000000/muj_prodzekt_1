@@ -3,10 +3,10 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, POST");
 header("Content-Type: application/json");
 
-$host = 'localhost';
-$db   = 'Projekt_kk';
-$user = 'root';
-$pass = '';
+$host = 'pracowityzi.mysql.dhosting.pl';
+$db   = 'qua3xo_mujproje';
+$user = 'pho7ub_mujproje';
+$pass = 'Supergoat123.';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);

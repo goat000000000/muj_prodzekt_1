@@ -3,7 +3,7 @@ import { LISTA_DATA } from './data/local_data';
 import { Lista } from './assets/Lista';
 import './assets/App.css'
 
-const API = '/api.php';
+const API = 'https://mujprojekt.dkonto.pl//api.php';
 
 function App() {
   const [lista, setLista] = useState([]);

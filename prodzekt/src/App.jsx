@@ -10,6 +10,12 @@ import './assets/App.css'
 
 function App() {
 
+  const handleCzysc = () => {
+    LISTA_DATA.forEach(item => {
+      localStorage.setItem(`checkbox_${item.nazwa}`, '0');
+    });
+    window.location.reload();
+  };
   return (
     <>
     
@@ -32,6 +38,9 @@ function App() {
       <div class="check check_gradient">
       </div>
     </main>
+    <div class="blokzprzyciskiem">
+      <button class="czysc" onClick={handleCzysc} >Odznacz</button>
+    </div>
     </>
   )
 }

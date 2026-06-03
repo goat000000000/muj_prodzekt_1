@@ -53,6 +53,28 @@ padding-left: 5%;
   width: 50%;
   height: auto;
 }
+.czysc{
+  background-color: #008cff;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 5%;
+  height: 50px;
+  font-size: 100%;
+  cursor: pointer;
+}
+.czysc:hover {
+  background-color: #0066ff;
+  transition: 0.2s;
+}
+.blokzprzyciskiem {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+  padding-top: 10px;
+}
 @media (max-width: 768px) {
   nav,
   main {
@@ -77,5 +99,8 @@ padding-left: 5%;
 
   .wysokosc {
     width: 100%;
+  }
+  .czysc{
+    width: 30%;
   }
 }

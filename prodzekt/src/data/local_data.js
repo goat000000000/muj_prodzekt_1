@@ -10,22 +10,22 @@ export const LISTA_DATA = [
     zaznaczone: 0
   },
   {
-    id: 4,
+    id: 3,
     nazwa: 'Pojechać do szkoły/pracy',
     zaznaczone: 0
   },
   {
-    id: 5,
+    id: 4,
     nazwa: 'Przekąsić coś',
     zaznaczone: 0
   },
   {
-    id: 6,
+    id: 5,
     nazwa: 'Zjeść obiad',
     zaznaczone: 0
   },
   {
-    id: 3,
+    id: 6,
     nazwa: 'Umyć się',
     zaznaczone: 0
   },

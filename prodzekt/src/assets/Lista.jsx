@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-const API = 'https://mujprojekt.dkonto.pl/api.php';
+const API = '/api.php';
 
 export function Lista({ id, nazwa, zaznaczone }) {
   const storageKey = `checkbox_${nazwa}`;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 const API = '/api.php';
@@ -12,19 +12,22 @@ export function Lista({ id, nazwa, zaznaczone }) {
     return zaznaczone === 1;
   });
 
+  useEffect(() => {
+    localStorage.setItem(storageKey, zaznaczone ? '1' : '0');
+    setChecked(zaznaczone === 1);
+  }, [zaznaczone]);
+
   const handleChange = async () => {
     const newValue = !checked;
     setChecked(newValue);
     localStorage.setItem(storageKey, newValue ? '1' : '0');
-
     try {
       await fetch(API, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id, nazwa, zaznaczone: newValue ? 1 : 0 }),
       });
-    } catch (e) {
-    }
+    } catch (e) {}
   };
 
   return (
